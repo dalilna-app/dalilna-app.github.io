@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>دليلنا: كل خدمات بلدك في مكان واحد</title>
+<meta name="description" content="دليلنا: دكاترة، صيدليات، مدرسين، مطاعم وعروض جنبك، وتعرف مين موجود دلوقتي فعلًا. مجاني.">
+<meta property="og:title" content="دليلنا: كل خدمات بلدك في مكان واحد">
+<meta property="og:description" content="دكاترة، صيدليات، مطاعم وعروض جنبك، ومين موجود دلوقتي. مجاني.">
+<meta property="og:image" content="dalilna_icon.png">
+<link rel="icon" href="dalilna_icon.png">
+<style>
+  :root{--bg:#F7F6FB;--fg:#15142B;--muted:#5B5A75;--card:#fff;--brand:#3B33C7;--brand2:#6A5CFF;--accent:#FFA41B;--border:#E4E2F3}
+  @media (prefers-color-scheme:dark){:root{--bg:#0E0C24;--fg:#ECEBFF;--muted:#A9A6D6;--card:#1A1838;--border:#2C2A55}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.7 system-ui,"Segoe UI","Noto Sans Arabic",Tahoma,sans-serif}
+  header{background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;padding:48px 16px 56px;text-align:center}
+  header img{width:112px;height:112px;border-radius:26px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+  h1{margin:18px 0 6px;font-size:34px}
+  .lead{margin:0 auto 26px;max-width:560px;opacity:.92}
+  .play{display:inline-flex;align-items:center;gap:10px;background:#000;color:#fff;text-decoration:none;padding:12px 22px;border-radius:14px;font-weight:700;border:1px solid rgba(255,255,255,.3)}
+  .play svg{width:26px;height:26px}
+  main{max-width:880px;margin:0 auto;padding:32px 16px 48px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:18px}
+  .card h3{margin:0 0 6px;font-size:18px;color:var(--brand2)}
+  .card p{margin:0;color:var(--muted)}
+  .shots{display:flex;gap:12px;overflow-x:auto;padding:24px 0 8px;scroll-snap-type:x mandatory}
+  .shots img{height:420px;border-radius:20px;border:1px solid var(--border);scroll-snap-align:center}
+  footer{text-align:center;color:var(--muted);font-size:14px;padding:0 16px 32px}
+  footer a{color:inherit}
+</style>
+</head>
+<body>
+<header>
+  <img src="dalilna_icon.png" alt="أيقونة دليلنا">
+  <h1>دليلنا</h1>
+  <p class="lead">كل خدمات بلدك في مكان واحد: دكاترة، صيدليات، مدرسين، مطاعم وعروض جنبك، وتعرف مين موجود دلوقتي فعلًا. مجاني.</p>
+  <a class="play" id="play" href="https://play.google.com/store/apps/details?id=app.dalilna.dalilna_mobile" rel="noopener">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#34A853" d="M3.6 1.8 13.8 12 3.6 22.2c-.4-.2-.6-.7-.6-1.2V3c0-.5.2-1 .6-1.2z"/><path fill="#FBBC04" d="m17.2 8.6-3.4 3.4 3.4 3.4 3.9-2.2c1.1-.6 1.1-1.8 0-2.4z"/><path fill="#4285F4" d="M13.8 12 3.6 22.2c.4.2.9.2 1.4-.1l12.2-6.7z"/><path fill="#EA4335" d="M3.6 1.8c.4-.3 1-.3 1.4-.1l12.2 6.9L13.8 12z"/></svg>
+    حمّله من Google Play
+  </a>
+</header>
+<main>
+  <div class="grid">
+    <div class="card"><h3>مين موجود دلوقتي</h3><p>الدكتور وصل؟ المحل فاتح؟ حالة حقيقية يأكدها صاحب المكان، مش مواعيد مكتوبة وبس.</p></div>
+    <div class="card"><h3>عروض جنبك</h3><p>خصومات وعروض من الأماكن القريبة منك، وتوصلك إشعار أول ما تنزل.</p></div>
+    <div class="card"><h3>نبّهني لما يوصل</h3><p>اطلب تنبيه لمكان معين، ويوصلك إشعار أول ما يأكد إنه موجود.</p></div>
+    <div class="card"><h3>اسأل قبل ما تروح</h3><p>ابعت سؤال للمكان واستنى الرد من غير ما تتصل.</p></div>
+  </div>
+  <div class="shots" aria-label="صور من التطبيق"><!-- store screenshots go here --></div>
+</main>
+<footer>
+  <a href="https://dalilna-admin.runasp.net/legal/privacy">سياسة الخصوصية</a> ·
+  <a href="https://dalilna-admin.runasp.net/legal/delete-account">حذف الحساب</a>
+</footer>
+</body>
+</html>
